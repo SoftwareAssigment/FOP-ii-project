@@ -1,0 +1,3 @@
+customer,sol,sol,sol,sol
+admin,admin,admin,admin,admin
+admin,solm,solm,solm,solm
