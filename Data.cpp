@@ -1,6 +1,5 @@
 #include "Data.h"
 // add mysql connector to project
-#include "C:\Program Files\MySQL\Connector C++ 1.1\include\cppconn\driver.h"
 
 // connect to database and return connection object
 // connect to mysql database
