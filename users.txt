@@ -1,3 +1,8 @@
 customer,sol,sol,sol,sol
 admin,admin,admin,admin,admin
 admin,solm,solm,solm,solm
+customer,user1,s,user1,1234
+product,93E41C6E-2091-1B9B-36BC-7CE94EDC677E,product_0,cat_0,5.500000,10
+product,93E41C6E-2091-1B9B-36BC-7CE94EDC677E,product_0,cat_0,5.500000,10
+product,0A0E086D-2926-ED9C-DF42-4060B4072B12,product_2,cat_2,7.500000,12
+product,0A0E086D-2926-ED9C-DF42-4060B4072B12,product_2,cat_2,7.500000,12

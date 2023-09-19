@@ -1,6 +1,11 @@
 #include "Data.h"
+// add mysql connector to project
+#include "C:\Program Files\MySQL\Connector C++ 1.1\include\cppconn\driver.h"
 
+// connect to database and return connection object
+// connect to mysql database
 // define static vectors
+
 std::vector<User*> Data::users = {};
 std::vector<Product*> Data::products = {};
 std::vector<Order*> Data::orders = {};
@@ -66,6 +71,7 @@ std::vector<User*> Data::readUsers() {
 	// return the vector
 	return users;
 }
+
 // read products from file
 std::vector<Product*> Data::readProducts(){
 
