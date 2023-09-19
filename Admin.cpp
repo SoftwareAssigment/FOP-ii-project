@@ -111,7 +111,7 @@ int Admin::editProduct(std::vector<Product*>& products) {
 int Admin::deleteProduct(std::vector<Product*>& products) {
     Product::viewAllProduct(products);
     std::cout << "Enter the id of the product you want to delete" << std::endl;
-    int id = Utils::getInt(1, products.size());
+    int id = Utils::getInt(1, products.size());//to handle the error 
     products.erase(products.begin() + id - 1);
     std::cout << "Product deleted successfully" << std::endl;
     system("pause");

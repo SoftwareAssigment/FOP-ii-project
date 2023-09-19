@@ -28,6 +28,7 @@ void Order::addProduct(Product& product) {
 	m_products.push_back(product);
 	std::cout << product.productToString();
 }
+
 void Order::displayOrder() {
 	std::cout<< "Order ID: " << m_orderId << " ordered by: " << m_customerUsername <<
 		" contains: " << std::endl;

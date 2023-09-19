@@ -49,7 +49,7 @@ int User::getFullDetails(){
     std::cout << "Username: " << m_userName << std::endl;
     std::cout << "Password: " << m_password << std::endl;
     std::cout << (m_isAdmin ? "You are an admin" : "") << std::endl;
-    std::cout << "Press any key to continue" << std::endl;
+    //std::cout << "Press any key to continue" << std::endl;
     system("pause");
     return 2;
 }
